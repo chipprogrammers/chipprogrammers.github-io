@@ -1,9 +1,12 @@
 Title: Chipprogrammer
+Title_ml: ചിപ്പ് പ്രോഗ്രാമർ
 short_title: CP
+short_title_ml: ചി.പ
 Slogan: Electronics for Everyone
 baseurl: "/"
 url: "https://chipprogrammers.github.io"
-Author: Arun K Soman
+Author:Author_ml: Arun K Soman
+Author_ml: അരുൺ കെ സോമൻ
 Author_img: "/static/IMG/Arun.jpg"
 disqus_shortname: https-chipprogrammers-github-io-pimate
 addthis_id: ra-5aa39bfee6d7726e
