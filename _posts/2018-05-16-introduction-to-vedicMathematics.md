@@ -1,4 +1,5 @@
 ---
+lang: en
 layout: post
 title: Introduction to Vedic Mathematics
 date:   2018-05-16 10:07:39 -0700
