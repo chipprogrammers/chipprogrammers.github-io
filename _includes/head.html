@@ -3,10 +3,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="{{ page.theme_color | default: '#ff5722' }}">
 <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/w3.css">
+
 <link rel="shortcut icon" href="{{ site.baseurl }}{{ site.favicon }}" type="image/x-icon">
 <!-- <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/main.css"> -->
 <!-- <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/typography.css"> -->
+{% if page.lang == "en" %}
 <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+{% endif %}
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 <link rel="stylesheet" href="{{ site.baseurl }}/fonts/css/fontawesome-all.min.css">
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/main.js"></script>
@@ -19,6 +22,11 @@
 {% if page.MathJax == true %}
 <script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
+{% endif %}
+{% if page.lang == "ml" %}
+<style>
+ @import url('https://smc.org.in/fonts/gayathri.css'); html { font-family: 'Gayathri', sans-serif; }
+ </style>
 {% endif %}
 <!-- Adsense -->
 
