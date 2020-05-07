@@ -1,4 +1,5 @@
 ---
+lang: en
 layout: post
 title: Example content for posts  
 category: Others
