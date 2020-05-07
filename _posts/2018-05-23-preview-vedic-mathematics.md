@@ -1,4 +1,5 @@
 ---
+lang: en
 layout: post
 title: Preview&#x003A; Vedic Mathematics
 date:   2018-05-23 10:07:39 -0700
