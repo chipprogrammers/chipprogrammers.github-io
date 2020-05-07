@@ -1,4 +1,5 @@
 ---
+lang: en
 layout: post
 title: Sensing Light
 category: Electronics
